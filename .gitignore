@@ -1,0 +1,42 @@
+# Secrets & keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+credentials*.json
+service-account*.json
+secrets*.json
+client_secret*.json
+
+# Dependencies
+node_modules/
+
+# Logs & temp
+*.log
+*.tmp
+.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Runtime data (customer/account records, password hashes)
+bank_data.json
